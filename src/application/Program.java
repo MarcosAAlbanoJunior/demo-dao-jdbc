@@ -7,7 +7,7 @@ import model.entities.Seller;
 public class Program {
 
 	public static void main(String[] args) {
-		
+		//i
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
 		Seller seller = sellerDao.findById(3);
